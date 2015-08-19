@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2015, 12:45:44 PM
+    Author     : amrutbudihal
+*/
+#appHeading{
+   background-color: #00a0df;
+    alignment-adjust: central;
+    text-align: center;
+    height:100px;
+    width:100%;
+    position:fixed;
+}
+
+#mainNav{
+    float: left;
+    width:15%;
+    
+}
+
+#useLoc{
+     width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#submitLoc{
+     width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#compare{
+     width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+#myFooter ul li{
+    list-style-type: none;
+}
+#myFooter ul li a{
+    text-decoration: none;
+    display:inline;
+    float:left;
+    width:25%;
+    text-align: center;
+    color: black;
+}
+#popupPanel-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+#popupPanel {
+    width: 200px;
+    border: 1px solid #000;
+    border-right: none;
+    background: rgba(0,0,0,.5);
+    margin: -1px 0;
+    
+}
+#popupPanel .ui-btn {
+    margin: 2em 15px;
+}
